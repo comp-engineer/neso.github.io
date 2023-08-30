@@ -1,0 +1,47 @@
+The given code appears to be an HTML document for a service application portal. Here is a documentation for the code:
+
+# Service Application Portal Documentation
+
+## Introduction
+The Service Application Portal is a web application designed to provide information about different skincare services and allow users to apply for those services. This documentation will explain the structure and functionality of the HTML code provided.
+
+## HTML Structure
+The HTML code follows the standard structure for a web page. It consists of several sections, including a navigation bar, a carousel slideshow, and different service sections. Here's an overview of the HTML structure:
+
+1. `<!DOCTYPE html>`: The doctype declaration specifies the HTML version being used.
+
+2. `<html lang="en">`: The root element of the HTML document. The `lang` attribute specifies the language of the document (English).
+
+3. `<head>`: Contains meta-information about the HTML document, such as the title, character encoding, viewport settings, and CSS stylesheets.
+
+   - `<title>`: Sets the title of the web page displayed in the browser's title bar.
+   - `<meta charset="UTF-8">`: Specifies the character encoding of the document as UTF-8.
+   - `<meta http-equiv="X-UA-Compatible" content="IE=edge">`: Provides compatibility settings for Internet Explorer.
+   - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Sets the viewport properties for responsive design.
+   - `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">`: Loads the Bootstrap CSS framework.
+   - `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">`: Loads an additional Bootstrap CSS file.
+   - `<link rel="stylesheet" href="css/style.css">`: Links a custom CSS file named "style.css".
+
+4. `<body>`: Contains the visible content of the web page.
+
+   - `<nav>`: Defines the navigation bar at the top of the page.
+
+     - `<a class="navbar-brand" href="#">SERVICE APPLICATION PORTAL</a>`: Displays the branding or logo of the portal.
+     - `<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">`: The button for toggling the responsive navigation menu.
+     - `<div class="collapse navbar-collapse" id="navbarSupportedContent">`: Contains the navigation menu items.
+
+       - `<ul class="navbar-nav mr-auto">`: Unordered list of navigation items.
+
+         - `<li class="nav-item active">`: Represents a navigation item.
+
+           - `<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>`: Represents a link to the home page. The `sr-only` class is used for screen readers.
+
+         - `<li class="nav-item dropdown">`: Represents a dropdown navigation item.
+
+           - `<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATEGORIES</a>`: Displays a dropdown menu for categories.
+
+             - `<div class="dropdown-menu" aria-labelledby="navbarDropdown">`: Contains the dropdown menu items.
+
+               - `<a class="dropdown-item" href="#Chemical peels">Chemical peels</a>`:
+
+.
